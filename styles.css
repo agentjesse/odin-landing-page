@@ -1,0 +1,13 @@
+/* self hosted font example. the font-family is not really the family, so not all weights and styles will work */
+/* @font-face { font-family: 'Roboto-Thin'; src:url('./fonts/Roboto/Roboto-Thin.ttf')format('truetype'); } */
+/* body{ font-family: 'Roboto-Thin', sans-serif; font-size: 3em; } */
+
+/*ACTUAL landing page styling*/
+/* below supports: Thin 100 Italic, Regular 400, Black 900 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
+body{
+  font-family: 'Roboto',sans-serif;
+  /* font-style: italic; */
+  /* font-weight: 100; */
+  /* font-size: 2em; */
+}
