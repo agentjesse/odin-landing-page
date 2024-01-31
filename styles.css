@@ -29,11 +29,12 @@ a{
   flex: 1;
 }
 .widthConstrain{
-  width: 800px;
+  width: 940px;
 }
 .nav {
   display:flex;
   gap: 1em;
+  padding: 1em 0;
 }
 .nav a:nth-of-type(1){
   margin-left: auto;
